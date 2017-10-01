@@ -58,6 +58,12 @@
 \RequirePackage{multirow,tabularx}
 \RequirePackage{changepage}
 \RequirePackage[hidelinks]{hyperref}
+% TODO: change underline colour
+%\hypersetup{%
+%	colorlinks=false,% hyperlinks will be black
+%	linkbordercolor=red,% hyperlink borders will be red
+%	pdfborderstyle={/S/U/W 1}% border style will be underline of width 1pt
+%}
 % \RequirePackage{marginfix}
 
 \setlength{\parindent}{0pt}
