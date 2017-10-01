@@ -6,13 +6,6 @@ v1.1.3 (30 April 2017), by LianTze Lim (liantze@gmail.com)
 
 Personal version of LianZe Alta CV: https://github.com/liantze/AltaCV
 
-## Samples
-
-This is how the re-created résumé looks like
-
-<img src="sample.png" alt="sample barebones AltaCV template" width="600px">
-
-
 ## Requirements and Compilation
 
 * pdflatex + biber + pdflatex
