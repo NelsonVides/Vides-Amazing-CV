@@ -124,18 +124,18 @@
     \end{minipage}\par}{}%
   \endgroup\medskip
 }
+
 \newcommand{\makeletterheader}{%
   \begingroup
     \ifdef{\@photodiameter}{
-    \begin{minipage}{\dimexpr\@photodiameter-2em}
-    	%{\@photodiameter}
+    \begin{minipage}{\dimexpr\@photodiameter}
         \if@normalphoto
           \includegraphics[width=\linewidth]{\@photo}
         \else
           \tikz\path[fill overzoom image={\@photo}]circle[radius=0.5\linewidth];
         \fi%
     \end{minipage}
-    \begin{minipage}{\dimexpr\linewidth-\@photodiameter-2em}}{}%
+    \begin{minipage}{\dimexpr\linewidth-\@photodiameter-1em}}{}%
     \raggedleft\color{emphasis}%
     {\Huge\bfseries\MakeUppercase{\@name}\par}
     \medskip

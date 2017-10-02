@@ -36,7 +36,7 @@
 
 
 % Change the page layout if you need to
-\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1cm,bottom=1cm}
+\geometry{left=1.3cm,right=9.3cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=0.8cm,bottom=1cm}
 
 % Change the font if you want to.
 
@@ -63,12 +63,15 @@
 \renewcommand{\ratingmarker}{\faCircle}
 
 %% sample.bib contains your publications
-%\addbibresource{sample.bib}
+\addbibresource{sample.bib}
 
 \begin{document}
 \name{Nelson Vides}
 \tagline{Junior Software Engineer}
-\photo{3cm}{../profilePicVides}
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TODO: make pic bigger
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\photo{3.2cm}{../profilePicVides}
 \personalinfo{%
   % Not all of these are required!
   % You can add your own with \printinfo{symbol}{detail}
@@ -93,98 +96,30 @@
 %% You can always just use \marginpar{...} if you do
 %% not need to align the top of the contents to any
 %% \cvsection title in the "main" bar.
+\cvsection[letter-p1sidebar]{outline}
+Pragmatically lazy: my biggest talent is finding the right path of lowest effort.
+%\smallskip
+\medskip
 
 %% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %%
-%%                Education section                 %%
+%%                About me  section                 %%
 %% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %%
-\cvsection[letter-p1sidebar]{Education}
-
-\cvevent{Certificate in Spanish Language Pedagogics}{Instytut Cervantesa w Krakowie}{Sept 2015 -- Dec 2015}{Kraków, Poland}
-Trained in Public Speaking, motivation of other, pedagogics and didactics.
-
-\divider
-
-\cvevent{B.Sc.\ in Pure Mathematics}{Universidad Complutense de Madrid}{Sept 2010 -- Jan 2015}{Madrid, Spain}
-Honour Grades in General Topology, high grades in Algebra, Geometry, and Set Theory.
-
-\divider
-
-\cvevent{Sciences Baccalaurate}{I.E.S. Luis de Lucena, Spain}{Sept 2008 -- May 2010}{Guadalajara, Spain}
-High performance in Mathematics, Physics, and Biology.
-
-\bigskip
-
-%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %%
-%%               Experience section                 %%
-%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %%
-\cvsection{Experience}
-
-\cvevent{Junior Accountant}{IBM BTO Services Polska}{February 2017 -- Ongoing}{Krakow, Poland}
-\begin{itemize}
-\item Responsible for Procurement and Accounts Payable for Spain
-\item Developing VBA Macro tools to improve efficiency of the reporting processes saving up to 4h a week per team
-\end{itemize}
-
-\divider
-
-\cvevent{Młodszy Bibliotekarz}{Wodzewódzka Biblioteka Publiczna w Krakowie}{Sept 2016 -- Feb 2017}{Krakow, Poland}
-\begin{itemize}
-	\item Polish language Atmosphere
-	\item Organisation of cultural events
-\end{itemize}
-
-\divider
-
-\cvevent{Spanish Teacher}{· multiple}{Sept 2016 -- Feb 2017}{Krakow, Poland}
-\begin{itemize}
-	\item at Wodzewódzka Biblioteka Publiczna w Krakowie
-	\item at K\&K School of English and at Profilingua Language School
-\end{itemize}
-
-\divider
-
-\cvevent{European Voluntary Service}{Wodzewódzka Biblioteka Publiczna w Krakowie}{Oct 2015 -- Jun 2016}{Krakow, Poland}
-\begin{itemize}
-	\item Teaching Spanish
-	\item Organising meetings with the Spanish Culture
-\end{itemize}
-
-
-%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %%
-%%                Learning section                  %%
-%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %%
-\clearpage
-\cvsection[page2sidebar]{Learning Path}
-
-\cvevent{Project 1}{This and that}{}{}
-\begin{itemize}
-\item Details
-\end{itemize}
-
-\divider
-
-\cvevent{Project 2}{Here and there}{Project duration}{}
-A short abstract would also work.
+\cvsection{About me}
 
 \medskip
 
 
 %% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %%
-%%               Other stuff section                %%
+%%                 Why you section                  %%
 %% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %%
-\cvsection{A Day of My Life}
-% Adapted from @Jake's answer from http://tex.stackexchange.com/a/82729/226
-% \wheelchart{outer radius}{inner radius}{
-% comma-separated list of value/text width/color/detail}
-\wheelchart{1.5cm}{0.5cm}{%
-  1/8em/accent!40/Social life they say,
-  5/8em/accent!20/{Boring \href{https://youtu.be/1g2ntIN7JuY}{sleep}},
-  3/8em/accent!70/{Reading books, deepening skills},
-  3/8em/accent!40/Programming deep in the night,
-  5/8em/accent!30/Daytime job,
-  1/8em/accent!60/Eating,
-  2/10em/accent/Sports
-}
+\cvsection{Why XXX?}
+
+\medskip
+
+%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %%
+%%                  Why me section                  %%
+%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %%
+\cvsection{Why me?}
 
 
 \end{document}
