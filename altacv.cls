@@ -154,6 +154,14 @@
   {\color{heading}\LARGE\bfseries\MakeUppercase{#2}}\\[-1ex]%
   {\color{heading}\rule{\linewidth}{2pt}\par}\medskip
 }
+\newcommand{\lettersection}[2][]{%
+	\bigskip%
+	\ifstrequal{#1}{}{\begin{fullwidth}}{\marginpar{\vspace*{\dimexpr1pt-\baselineskip}\raggedright\input{#1}}}%
+		{\color{heading}\LARGE\bfseries\MakeUppercase{#2}}\\[-1ex]%
+		{\color{heading}\rule{\linewidth}{2pt}\par}\medskip
+		\ifstrequal{#1}{}{\end{fullwidth}}{}%
+}
+
 
 \newcommand{\cvsubsection}[1]{%
   \smallskip%
