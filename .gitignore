@@ -24,3 +24,5 @@
 *.synctex(busy)
 *.xml
 *.bcf
+*.zip
+*.7z
